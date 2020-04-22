@@ -1,34 +1,24 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="../../assets/logo.png">
+    <img alt="Vue logo" src="../../assets/logo.png" />
     <p>
-      
       <v-btn @click="demo_axios()">Axios</v-btn>
     </p>
   </div>
-
-
 </template>
 
 <script>
-
 export default {
-  name: 'demo-axios',
-  data : ()=>({
-
-  }),
-  methods:{
-
-    demo_axios(){
-      
+  name: "demo-axios",
+  data: () => ({}),
+  methods: {
+    demo_axios() {
       this.$axios.get("/").then(res => {
-
         console.log(res);
       });
     }
   }
-
-}
+};
 </script>
 
 <style>
