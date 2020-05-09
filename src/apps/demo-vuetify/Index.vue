@@ -87,6 +87,18 @@
         </v-card>
       </v-col>
     </v-row>
+
+    <v-row>
+      <v-col cols="4">
+        <v-card class="mx-auto">
+          <v-card-text>
+            <h2>
+              <router-link to="/demo-vuetify/layouts/components">components</router-link>
+            </h2>
+          </v-card-text>
+        </v-card>
+      </v-col>
+    </v-row>
   </div>
 </template>
 

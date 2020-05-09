@@ -8,6 +8,7 @@ import './plugins/axios'
 import './plugins/moment'
 
 import './apps/demo-context/context'
+import './apps/demo-vuetify/eventBus'
 
 
 Vue.config.productionTip = false

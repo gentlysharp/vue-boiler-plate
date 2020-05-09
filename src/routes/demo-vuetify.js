@@ -59,5 +59,16 @@ export default [
     name: 'demo-vuetify-layouts-sandbox',
     meta: { title: 'basic-vuetify-layouts-sandbox' },
     component: () => import(/* webpackChunkName: "basic-vuetify-layouts-sandbox" */ '../apps/demo-vuetify/layouts/sandbox.vue')
+  },
+  {
+    path: '/demo-vuetify/layouts/components',
+    name: 'demo-vuetify-layouts-components',
+    meta: { title: 'basic-vuetify-layouts-components' },
+    component: () => import(/* webpackChunkName: "basic-vuetify-layouts-components" */ '../apps/demo-vuetify/layouts/components.vue'),
+    // children: [
+    //   {
+    //     path: '/demo-vuetify/layouts/components/cards'
+    //   }
+    // ]
   }
 ]
